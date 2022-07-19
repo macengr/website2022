@@ -25,16 +25,32 @@ export class ResumeComponent implements OnInit {
     },
     "location" : "Pittsburgh, PA",
     "biopic" : "assets/8150967.gif",
-    "skills" : ["HTML5", "CSS3", "JavaScript", "Angular 9", "SQL", "TypeScript", "Node", "Github"]	
+    "skills" : ["HTML5", "CSS3", "JavaScript", "Angular 4 through 14", "SQL", "TypeScript", "Node", "Github"]	
   }
 
-  jobs = [ 
+  jobs = [
+    {
+      "employer" : "Koozie Group",
+      "title" : "Front End Developer",
+      "location" : "Remote",
+      "dates" : "Jun 2022 - present",
+      "description" : "I work on internal sites.",
+      "url": "https://www.kooziegroup.com/US/",
+    },
+    {
+      "employer" : "Moss Corporation",
+      "title" : "Front End Developer",
+      "location" : "Remote",
+      "dates" : "Jun 2021 - Feb 2022",
+      "description" : "Moss sells car insurance. I worked on their app, which was shelved.",
+      "url": "https://symbiotries.com/",
+    }, 
     {
       "employer" : "Sngular (at PNC Bank)",
       "title" : "Front End Developer",
       "location" : "Pittsburgh, PA",
-      "dates" : "Oct 2020 - present",
-      "description" : "Sngular is a consulting firm. We are working on internal websites for PNC. I am developing new features, fixing bugs, and refactoring code.",
+      "dates" : "Oct 2020 - Jun 2021",
+      "description" : "Sngular is a consulting firm that was working on internal websites for PNC.",
       "url": "https://symbiotries.com/",    
     },
     {
@@ -42,15 +58,15 @@ export class ResumeComponent implements OnInit {
       "title" : "Front End Developer",
       "location" : "Pittsburgh, PA",
       "dates" : "Dec 2019 - Jun 2020",
-      "description" : "https://www.highmarkhealth.org/hmk/index.shtml",
-      "url": "",
+      "description" : "I worked on the customer web portal of this health insurance firm.",
+      "url": "https://www.highmarkhealth.org/hmk/index.shtml",
     },
     {
       "employer" : "UPMC via Beacon Hill Staffing (Temp. Position)",
       "title" : "Front End Developer",
       "location" : "Pittsburgh, PA",
       "dates" : "Apr 2019 - Sep 2019",
-      "description" : "",
+      "description" : "I worked on the customer web portal of this health insurance firm.",
       "url": "https://www.upmc.com/",
     },
     {
@@ -58,7 +74,7 @@ export class ResumeComponent implements OnInit {
       "title" : "Front End Developer / QA Developer",
       "location" : "Pittsburgh, PA",
       "dates" : "Dec 2017 - Feb 2019",
-      "description" : "",
+      "description" : "We were an accounting marketplace startup, but didn't make it, sadly.",
       "url": "https://symbiotries.com/",
     },
   ]
