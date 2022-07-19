@@ -1,0 +1,20 @@
+<section>
+    <header>
+        <h1>Contact me!</h1>
+        <p>Please contact me with any web development needs you might have!</p>
+        <p>Your information will <em>never</em> be shared with anyone</p>
+    </header>
+
+    <form class="contact" [formGroup]="form" method="post" (ngSubmit)="onSubmit()">
+        Name
+        <input [formControl]="name" required>
+        Email
+        <input [formControl]="email" placeholder="email@example.com" required>
+        Message
+        <textarea [formControl]="message" maxlength="256" placeholder="I'm interested in..." required></textarea>
+        <button [disabled]="isLoading" class="submit" type="submit">Submit</button>
+        <div [ngClass]="!submitted? 'hidden' : 'visible'" class="center-text">
+          <span>{{responseMessage}}</span>
+        </div>
+      </form>
+</section>
