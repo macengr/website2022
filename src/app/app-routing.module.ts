@@ -14,6 +14,7 @@ const routes: Routes = [
   { path: 'contact', component: ContactComponent },
   { path: 'resume', component: ResumeComponent },
   { path: 'now', component: NowComponent },
+  { path: '**', redirectTo: '/home' }
 ];
 
 @NgModule({
