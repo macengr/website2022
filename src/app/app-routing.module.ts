@@ -6,6 +6,7 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ContactComponent } from './contact/contact.component';
 import { ResumeComponent } from './resume/resume.component';
 import { NowComponent } from './now/now.component';
+import { BlogComponent } from './blog/blog.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent},
@@ -14,6 +15,7 @@ const routes: Routes = [
   { path: 'contact', component: ContactComponent },
   { path: 'resume', component: ResumeComponent },
   { path: 'now', component: NowComponent },
+  { path: 'blog', component: BlogComponent },
   { path: '**', redirectTo: '/home' }
 ];
 

@@ -16,6 +16,7 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import { HeaderComponent } from './navigation/header/header.component';
 import { SidenavListComponent } from './navigation/sidenav-list/sidenav-list.component';
 import { NowComponent } from './now/now.component';
+import { BlogComponent } from './blog/blog.component';
 
 // Services
 import { ContactService } from './contact.service';
@@ -36,6 +37,7 @@ import { MaterialModule } from './material/material.module';
     ResumeComponent,
     ContactComponent,
     PortfolioComponent,
+    BlogComponent,
   ],
   imports: [
     BrowserModule,
